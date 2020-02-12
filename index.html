@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body onload = "LoadList()"> 
+<!-- onload = "LoadList()" executes the JavaScript function immediately after the page has been loaded. The default static items (Jello, ...) that were orginially in index.html wouldn't have the dynaimc delete feature of the delete buttons unless I moved them to the script.js file. Now, onload immediately loads the previosuly default static items from the script.js file. This makes them subjected to all the dynamic characteristics that created dynamic items are, like the delete button. -->
+    <h1>Shopping List</h1>
+    <p id="first">Get it done today</p>
+    <!-- <p class="second">No Excuse</p> -->
+    <input id="userinput" type="test" placeholder="enter itmes">
+    <!-- <button>Click me!</button> -->
+    <button id="enter">Enter</button>
+    <!-- List of static items have been commented out and moved to script.js -->
+    <ul> 
+        <!-- <li class="bold red" random="23">Notebook</li>
+        <li>Jello</li>
+        <li>Spinach</li>
+        <li>Rice</li>
+        <li>Birthday Cake</li>
+        <li>Candles</li> -->
+    </ul>
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
+
